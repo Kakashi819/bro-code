@@ -1,8 +1,25 @@
-.main-form {
-	display: flex;
-	flex-direction: column;
+.main-form-container {
 	height: 100vh;
-	width: 100%;
+	width: 100wh;
+	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: #ffdd82;
+}
+.form-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border: 2px solid black;
+	height: 200px;
+	width: 850px;
+	background-color: white;
+}
+.signup-image {
+	height: inherit;
+	width: 50%; /* Set a specific width for the .signup-image container */
+}
+
+.signup-image-main {
+	height: 100%;
 }
